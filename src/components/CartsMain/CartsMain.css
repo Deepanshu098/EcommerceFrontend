@@ -1,0 +1,36 @@
+.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #edebeb;
+    transition: box-shadow 0.25s
+}
+
+.store-item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.image_store {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+.btn-qty-container{
+    border: 1px solid #edebeb;
+      border-radius: 6px;
+      height: 35px;
+}
+.btn-qty{
+    font-size: 18px;
+        font-weight: 500;
+        height: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+}
+.list_store{
+    margin-bottom: -15px;
+}

@@ -1,0 +1,66 @@
+.form{
+    flex-basis: 45%;
+}
+.form h4{
+        font-weight: 600;
+          color: palevioletred;
+          letter-spacing: 1.5px;
+          font-size: 15px;
+          margin-bottom: 15px;
+}
+.form h1{
+    font-weight: 600;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+.form p{
+    font-size: 15px;
+    color: lightslategray;
+}
+
+.form-details{
+    flex-basis: 46%;
+}
+input{
+          padding: 12px 20px;
+          color: gray;
+          outline: none;
+          border: 1px solid gray;
+          margin: 35px 15px;
+          font-size: 14px;
+          border-radius: 15px;
+}
+textarea {
+    padding: 15px 20px;
+    margin: 0 15px;
+    color: gray;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 14px;
+    resize: none;
+    border-radius: 15px;
+  }
+
+
+
+@media(max-width : 800px){
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .form  h1{
+        font-size: 18px;
+    }
+    .form span{
+        font-size: 12px;
+    }
+    .form-details .textinp, .form-details .emailinp , .form-details .textareainp{
+        width: 100% !important;
+        margin-left: 0;
+    }
+    .form-details .textinp{
+        margin-bottom: 0;
+    }
+}

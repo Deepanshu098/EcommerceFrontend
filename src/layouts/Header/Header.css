@@ -1,0 +1,79 @@
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 65px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    z-index: 2;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlogo img{
+    width: 100px;
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.hamburgr{
+    display: none;
+}
+.profile .profile_img{
+    width: 50px;
+}
+.dropdown_btn{
+    background: none !important;
+    border: none !important;
+    font-size: 20px;
+}
+.cart_item{
+    position: absolute;
+    right: 6%;
+    top: 16%;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 1em;
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+
+/* Media Query Responsive for tab */
+@media (max-width:800px){
+    nav{
+        overflow: hidden;
+    }
+    .right .nav_btn,
+        .right .profile,
+        .right .cartsicon {
+            display: none;
+        }
+        .right .hamburgr {
+            cursor: pointer;
+            font-size: 25px;
+            display: block !important;
+        }
+}
+
+@media(max-width:576px){
+    .navlogo img {
+        width: 95px;
+        /* margin-top: 14px; */
+    }
+}
